@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 0;
+    background-color: #000;
+    font-family: 'Bebas Neue', serif;
+}
+
+.placar {
+    width: 800px;
+    height: 500px;
+    background: #fff;
+    border-radius: 4rem;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5);
+    margin: 40px auto;
+}
+
+.metade {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.timeA, .timeB {
+    color: #2e2e36;
+    font-size: 20px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.content {
+    box-sizing: border-box;
+    height: 360px;
+    border-top: 3px solid #004e04;
+    border-bottom: 3px solid #004e04;
+    padding: 105px 0;
+    font-size: 0;
+    color: #2e2e36;
+}
+
+.sets-group {
+    box-sizing: border-box;
+    height: 80px;
+    font-size: 0px;
+    color: #2e2e36;
+    padding: 20px 0;
+}
+
+.score-a {
+    border-right: 3px solid #004e04;
+    font-size: 150px;
+}
+
+.score-b {
+    font-size: 150px;
+}
+
+.set-a {
+    font-size: 40px;
+}
+
+.set-b {
+    font-size: 40px;
+}
+
+#marca {
+    text-align: center;
+    padding-bottom: 10px;
+}
